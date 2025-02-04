@@ -142,10 +142,12 @@ let intervalId;
   
     document.querySelector('.js-result').innerHTML = result;
   
-    document.querySelector('.js-moves').innerHTML = `You
-  <img src="/rock paper scissors/${playerMove}-emoji.png" class="move-icon">
-  <img src="/rock paper scissors/${computerMove}-emoji.png" class="move-icon">
-  Computer`;
+     document.querySelector('.js-moves').innerHTML = 
+  `You
+  <p class="move-icon display">${playerMove}</p>
+   Computer <p class="move-icon display">${computerMove}</p>
+  `;
+  }
   }
   
   function updateScoreElement() {
