@@ -45,3 +45,8 @@ body {
   .choice-button2,.choice-button1{
     margin-top: 10px;
   }
+
+ .display{
+    display: inline-block;
+    font-size: 18px;
+  }
